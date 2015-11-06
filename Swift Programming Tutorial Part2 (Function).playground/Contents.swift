@@ -12,3 +12,12 @@ sayHello()
 
 
 sayHelloTo(nameOfPerson: "Shawn")
+
+
+func sayHelloTo(name: String) -> String{
+   
+    return "well, hello to you too!, \(name)"
+}
+
+
+sayHelloTo("Shawn")
